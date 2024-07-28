@@ -2,23 +2,19 @@ def rent_calculator():
     print("Welcome to the Rent Calculator!")
 
     try:
-        # Get the basic rent amount
-        rent = float(input("Enter the monthly rent amount: $"))
 
-        # Get the utilities costs
-        utilities = float(input("Enter the monthly utilities cost (electricity, water, etc.): $"))
+        rent = float(input("Enter the monthly rent amount: rupees"))
 
-        # Get the internet cost
-        internet = float(input("Enter the monthly internet cost: $"))
+        utilities = float(input("Enter the monthly utilities cost (electricity, water, etc.): rupees"))
+        
+        internet = float(input("Enter the monthly internet cost: rupees"))
 
-        # Get the other expenses
-        other_expenses = float(input("Enter the other monthly expenses: $"))
+        other_expenses = float(input("Enter the other monthly expenses: rupees"))
 
-        # Calculate the total monthly cost
-        total_cost = rent + utilities + internet + other_expenses
-
-        # Print the result
-        print(f"\nThe total monthly rent cost is: ${total_cost:.2f}")
+        people = float(input("Enter how many people are there:"))
+        total_cost = rent + utilities + internet + other_expenses/prople
+        
+        print(f"\n Each person has to contribute : rupees{total_cost:.2f}")
     except ValueError:
         print("Invalid input. Please enter numeric values.")
 
