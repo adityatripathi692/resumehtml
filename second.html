@@ -1,92 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1>My Portfolio</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <section id="home" class="section">
-        <div class="container"> 
-            <p>This is a showcase of my work and skills.</p>
-        </div>
-    </section>
-
-    <section id="about" class="section">
-        <div class="container">
-            <h2>About Me</h2><hr>
-            <h3>Education</h3>
-            <h4>I am currently pursuing Bachelor of Science Information Technology</h4><br>
-            <h3>Skills</h3>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Responsive Design</li>
-                <li>learning C / C++</li>
-                 <li>Python</li>
-        </div>
-    </section>
-
-    <section id="projects" class="section">
-        <div class="container">
-            <h4></h4>
-           
-            <div class="project">
-                
-                <h3>Project 1</h3>
-                <p><h3>How To Play</h3>
-                    Run the script.
-                    Enter your choice when prompted (rock, paper, or scissors).
-                    The computer randomly selects its choice.
-                    The winner for that round is determined and displayed.
-                    You can choose to play again or exit the game.
-                    This implementation provides a basic structure for the game.
-                    <a href="rps.py">rock paper scissor link</a>
-
-                    
-                    
-                    </p>
-            </div>
-
-              <div class="project">
-                
-                <h3>Project 2</h3>
-                <p><h3>How To use</h3>
-                  A rent calculator in Python is a simple yet effective script that helps users estimate their total monthly housing expenses. By prompting for inputs such as monthly rent, utilities (electricity, water, etc.), internet, and other miscellaneous costs, it calculates the overall monthly financial commitment. This script uses basic arithmetic operations and input validation to ensure accurate calculations. Ideal for budgeting and financial planning, the Python rent calculator provides a clear view of all housing-related expenses. It's user-friendly, easy to modify, and can be run on any system with Python installed, making it accessible for anyone looking to manage their housing costs efficiently.
-                    <a href="rent2.py">Rent Calculator</a>
-
-                    
-                    
-                    </p>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <p>You can reach me via email at <a href="mailto:adityakumar.tripathi.2891@gmail.com">adityakumar.tripathi.2891@gmail.com</a>.</p>
-            <a href =index.html>First page</a>
-        </div>
-    </section>
-    <script src="script.js"></script>
-</body>
-</html>
+    <title>Puting All Together!!!</title>
+<style>
+   .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color:rgb(29, 27, 34);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            float: center;
+            flex: 100%;
+            text-align: center;
+            opacity: 0.6;
+            
+   }
+   body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 100px;
+            color:white ;
+            background-color: black;
+            animation-name:aditya;
+            animation-duration: 2s;
+            animation-iteration-count:1;
+            border-color:rgb(red, green, blue) ;
+            background-image:url(background-image.jpg) ;
+          }
+    @keyframes aditya{
+        from{
+            width:500px;
+        }
+        to{
+            width:1000px;
+        }
+    }
 
             
+        
+
+  .cen{
+    text-align: center;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+</style>
+
+</head>
+<body>
+  <div class="container">
+<form>
+  Enter your Name <input type="name"><br><br>
+  Enter your e-mail  <input type="email"><br><br>
+  Enter your  date of birth <input type="date"><br><br>
+  
+  <div class="cen"><input type="submit"></div>
+ 
+</form>
+
+
+  </div>
+
+
+</body>
+</html>
